@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/style.css">
+
+    <title>ClassContact</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="border">
+            <h2 class="text-center">Liste de contacts</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Titre</th>
+                        <th>Nom</th>
+                        <th>Prénom</th>
+                        <th>Date Naissance</th>
+                        <th>Téléphone</th>
+                        <th>Email</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="contacts">
+                </tbody>
+            </table>
+        </div>
+        <div class="border">
+            <div class="alert alert-danger text-center" style="display: none;" id="form-alert"></div>
+            <h2 class="text-center">Ajouter Contact</h2>
+            <form>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input radio" type="radio" name="titre" id="inlineRadio1" value="Mr"
+                        checked>
+                    <label class="form-check-label" for="inlineRadio1">Mr</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input radio" type="radio" name="titre" id="inlineRadio2" value="Mme">
+                    <label class="form-check-label" for="inlineRadio2">Mme</label>
+                </div>
+            </form>
+            <div class="row from-group">
+                <div class="col"><input class="form-control" type="text" placeholder="nom" id="nom" minlength="2"></div>
+                <div class="col"><input class="form-control" type="text" placeholder="prenom" id="prenom" minlength="2">
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col"><input class="form-control" type="date" name="date" id="date"></div>
+                <div class="col"><input class="form-control" type="tel" name="tel" id="tel" placeholder="0601020304"
+                        minlength="10" maxlength="12">
+                </div>
+                <div class="col"><input class="form-control" type="email" name="mail" id="mail"
+                        placeholder="exemple@exemple.com" minlength="2"></div>
+            </div>
+            <button class="btn btn-success" id="add">Ajouter</button>
+            <button class="btn btn-secondary" id="show">Show</button>
+        </div>
+    </div>
+    <script type="module" src="./src/index.js"></script>
+</body>
+
+</html>

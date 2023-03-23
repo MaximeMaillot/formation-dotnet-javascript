@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#img {
+    width: 100%;
+}
+
+#left {
+    grid-column: 1/2;
+}
+
+#right {
+    grid-column: 2/3;
+}
+
+#masque {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#user-input,
+#basic-addon3 {
+    margin-left: 1rem;
+}
+
+#validate,
+#list-proposition {
+    margin-right: 1rem;
+}

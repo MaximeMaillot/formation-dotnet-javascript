@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../exercices/assets/favicon.ico" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>TP Class</title>
+</head>
+
+<body>
+    <div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Durée</th>
+                    <th>Prix</th>
+                </tr>
+            </thead>
+            <tbody id="price">
+
+            </tbody>
+        </table>
+    </div>
+    <div class="container card">
+        <h2 class="text-center title">Parking 3000</h2>
+        <div class="alert" role="alert" id="alert"></div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Saisir votre immatriculation" id="id-car">
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button" id="pay">Payer</button>
+            </div>
+        </div>
+        <button class="btn btn-primary" id="ticket">Obtenir un ticket</button>
+        <button class="btn btn-secondary" id="exit">Sortir</button>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

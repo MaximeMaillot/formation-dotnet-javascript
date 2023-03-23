@@ -1,0 +1,19 @@
+.table {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.card {
+    margin-top: 2rem;
+}
+
+.title {
+    margin-top: 1rem;
+}
+
+#ticket,
+#exit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
