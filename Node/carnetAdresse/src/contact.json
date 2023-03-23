@@ -1,0 +1,46 @@
+[
+    {
+        "id": "lephxbvbex",
+        "nom": "Max",
+        "prenom": "Mail",
+        "dateNaissance": "2001-12-09T23:00:00.000Z",
+        "telephone": "0631452295",
+        "email": "maillot.maxime62@gmail.com",
+        "avatar": "k8u5y.jpg",
+        "created": "2023-03-01T09:49:21.623Z",
+        "modified": "2023-03-01T09:49:21.623Z"
+    },
+    {
+        "id": "lepig6erx1",
+        "nom": "Max",
+        "prenom": "Mail",
+        "dateNaissance": "2001-12-09T23:00:00.000Z",
+        "telephone": "0631452295",
+        "email": "maillot.maxime62@gmail.com",
+        "avatar": "am2cw4.jpg",
+        "created": "2023-03-01T10:04:01.011Z",
+        "modified": "2023-03-01T10:04:01.011Z"
+    },
+    {
+        "id": "lepikqu3iy",
+        "nom": "Max",
+        "prenom": "Mail",
+        "dateNaissance": "2001-12-09T23:00:00.000Z",
+        "telephone": "0631452295",
+        "email": "maillot.maxime62@gmail.com",
+        "avatar": "bxyqc2.jpg",
+        "created": "2023-03-01T10:07:34.107Z",
+        "modified": "2023-03-01T10:07:34.107Z"
+    },
+    {
+        "id": "lepijg3wzu",
+        "nom": "Maximette",
+        "prenom": "Maillot",
+        "dateNaissance": "1992-04-10T22:00:00.000Z",
+        "telephone": "0637297027",
+        "email": "maillot.maxime62@gmail.com",
+        "avatar": "bvfjvw.jpg",
+        "created": "2023-03-01T10:06:33.548Z",
+        "modified": "2023-03-01T10:07:40.860Z"
+    }
+]

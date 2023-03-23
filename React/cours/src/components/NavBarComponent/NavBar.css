@@ -1,0 +1,16 @@
+#navbar {
+    background-color: red;
+    padding: 10px 0;
+}
+
+.bouton {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: inherit 10px;
+    font-size: larger;
+}
+
+.bouton a {
+    color: white;
+}

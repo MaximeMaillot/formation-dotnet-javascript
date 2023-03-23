@@ -1,0 +1,11 @@
+.author {
+    color: blue;
+}
+
+.key {
+    font-weight: bold;
+}
+
+.value {
+    font-style: italic;
+}

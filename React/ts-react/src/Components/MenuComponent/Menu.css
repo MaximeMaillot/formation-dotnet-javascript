@@ -1,0 +1,15 @@
+.Menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: none;
+}
+
+.Menu>div {
+    background-color: brown;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.Menu>div:hover {
+    background-color: rgb(190, 49, 49);
+}

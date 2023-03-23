@@ -1,0 +1,7 @@
+    {
+        "id": 42,
+        "name": "Jean bon",
+        "email": "jeanbon@gmail.com",
+        "password": "*******",
+        "admin": true
+    }

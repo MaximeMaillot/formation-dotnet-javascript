@@ -1,0 +1,11 @@
+.Upgrade {
+    background-color: blue;
+    height: fit-content;
+    padding: 1rem;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.Upgrade:hover {
+    background-color: darkblue;
+}

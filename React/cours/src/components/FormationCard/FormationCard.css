@@ -1,0 +1,19 @@
+.card {
+    width: 20vw;
+    margin: 10px;
+}
+
+.card-title {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.category {}
+
+.difficulte {}
+
+.price {}
+
+.logo-image {
+    width: 100%;
+}

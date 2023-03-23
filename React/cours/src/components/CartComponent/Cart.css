@@ -1,0 +1,12 @@
+.relative {
+    position: relative;
+}
+
+.spaced {
+    margin: 20px auto;
+}
+
+.cart-list {
+    background-color: black;
+    color: white;
+}

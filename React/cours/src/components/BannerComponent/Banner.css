@@ -1,0 +1,20 @@
+.red {
+    background-color: rgb(0, 0, 99);
+    border-bottom: 2px solid darkred;
+    color: white;
+}
+
+.image {
+    max-height: 100px;
+    transform: translateX(-30%);
+}
+
+.transform {
+    transform: translateX(30%);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

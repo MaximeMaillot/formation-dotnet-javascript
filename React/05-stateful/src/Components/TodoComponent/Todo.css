@@ -1,0 +1,32 @@
+.checked {
+    background-color: lightgreen !important;
+}
+
+.unchecked {
+    background-color: lightgray !important;
+}
+
+.todo-delete {
+    background-color: lightcoral !important;
+}
+
+.todo-delete:hover {
+    background-color: red !important;
+}
+
+.todo-checkbox>input,
+.todo-delete {
+    cursor: pointer;
+}
+
+.td-text {
+    width: 65%
+}
+
+.td-fa {
+    width: 5%;
+}
+
+.td-fa>* {
+    font-size: 2rem;
+}

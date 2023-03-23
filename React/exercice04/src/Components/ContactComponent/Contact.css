@@ -1,0 +1,68 @@
+.td-delete,
+.td-modify,
+.td-cancel,
+.td-validate {
+    cursor: pointer;
+    text-align: center;
+}
+
+.table-striped>tbody>tr>td {
+    padding-left: 1vw;
+}
+
+/*
+.table-striped>tbody>tr:nth-of-type(odd)>.td-delete {
+    background-color: darkblue;
+    box-shadow: none;
+}
+
+.table-striped>tbody>tr:nth-of-type(even)>.td-delete {
+    background-color: blueviolet;
+}
+
+.table-striped>tbody>tr>.td-delete:hover {
+    background-color: darkred;
+    color: whitesmoke;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>.td-modify {
+    background-color: darkgoldenrod;
+    box-shadow: none;
+}
+
+.table-striped>tbody>tr:nth-of-type(even)>.td-modify {
+    background-color: lightsalmon;
+}
+
+.table-striped>tbody>tr>.td-modify:hover {
+    background-color: orange;
+    color: whitesmoke;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>.td-validate {
+    background-color: green;
+    box-shadow: none;
+}
+
+.table-striped>tbody>tr:nth-of-type(even)>.td-validate {
+    background-color: rgb(5, 175, 5);
+}
+
+.table-striped>tbody>tr>.td-validate:hover {
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>.td-cancel {
+    background-color: darkgray;
+    box-shadow: none;
+}
+
+.table-striped>tbody>tr:nth-of-type(even)>.td-cancel {
+    background-color: black;
+}
+
+.table-striped>tbody>tr>.td-cancel:hover {
+    background-color: grey;
+    color: whitesmoke
+}*/

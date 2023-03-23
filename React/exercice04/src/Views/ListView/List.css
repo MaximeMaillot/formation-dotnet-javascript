@@ -1,0 +1,21 @@
+.table {
+    width: 95%;
+    margin: auto;
+}
+
+.table th {
+    font-weight: bold;
+    padding-left: 1vw;
+}
+
+table th.th-centered {
+    text-align: center;
+}
+
+table th.th-width {
+    width: 20%;
+}
+
+.bouton-clear {
+    min-width: 10%
+}
